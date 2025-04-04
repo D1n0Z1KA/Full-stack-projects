@@ -1,0 +1,133 @@
+.gradient-background {
+  background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+  
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+}
+
+.profile-img {
+  height: 100px;
+  border-radius: 50%;
+}
+
+
+button.btn.btn-primary.btn-lg.px-4.me-md-2.fw-bold {
+  background: white;
+  color: black;
+  border: none;
+}
+
+
+button.btn.btn-outline-secondary.btn-lg.px-4 {
+  border: 1px solid white;
+  color: white;
+}
+
+
+button.btn.btn-primary.btn-lg.px-4.me-md-2.fw-bold:hover{
+  background: repeating-linear-gradient(45deg, white, transparent 100px);}
+
+
+button.btn.btn-outline-secondary.btn-lg.px-4:hover {
+    background: repeating-linear-gradient(45deg, black, transparent 100px);}
+
+.text-body-emphasis {
+    padding-bottom: 2%;}
+
+.row.row-cols-1.row-cols-sm-2.row-cols-md-3.row-cols-lg-4.g-4.py-5 {
+      justify-content: space-evenly;
+  }
+
+
+
+
+.pebles-dog{
+  
+  height: 100px;
+  border-radius: 17%;
+}
+
+
+section#partners {
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  
+  gap: 23px 27px;
+}
+
+@media screen and (min-width: 600px) {
+section#partners {
+  
+  padding-bottom: 1%;
+}
+
+
+section#partners img {
+  width: 6%;
+  
+}}
+
+#pricing > .row.row-cols-1.row-cols-md-3.mb-3.text-center {
+  padding-bottom: 4%;
+  justify-content: center;
+}
+
+
+@media screen and (min-width: 1440px) {
+#pricing .col {
+  width: 17%;
+}}
+
+
+#features svg.bi.bi {
+  margin-right: 5%;
+ 
+
+  padding: 0% 0% 0% 3%;
+  height: 57%;
+}
+
+@media screen and (min-width: 676px)
+{.align-items-start {
+  margin-right: 1%;
+  flex-basis: fit-content;}
+
+  .row.row-cols-1.row-cols-sm-2.row-cols-md-3.row-cols-lg-4.g-4.py-5 {
+    justify-content: center;
+}
+
+
+#features svg.bi.bi {
+  
+  border-radius: 29%;
+  background: coral;
+  padding: 0% 3% 0% 3%;
+
+}
+}
+
+#features .row{
+
+  justify-content: center;
+}
+
+
