@@ -1,1 +1,1 @@
-There are some web practice projects
+There are some web projects
