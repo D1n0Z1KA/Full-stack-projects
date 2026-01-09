@@ -169,12 +169,7 @@ $menu_WIDTH: 150px;
 }
 
 
-@media only screen and (max-width: 768px) {
-.hList {
 
-      display: none;
-      
-}}
 
 
 .hList {
@@ -190,4 +185,11 @@ $menu_WIDTH: 150px;
 .hList > * + * {
   margin-left: 0;
 }
+
+@media only screen and (max-width: 768px) {
+.hList {
+
+      display: none;
+      
+}}
 
