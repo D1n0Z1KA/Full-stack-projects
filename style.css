@@ -96,7 +96,7 @@ $menu_WIDTH: 150px;
 .menu-dropdown {
   
   padding: 15px 0;
-  position: absolute;
+  position: relative;
   background: #ebebeb;
   z-index: 100;
   transition:
