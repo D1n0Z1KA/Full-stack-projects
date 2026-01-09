@@ -94,7 +94,7 @@ $menu_WIDTH: 150px;
 .menu-title_4th:hover:before { border-top-color: #cb9b48; }
 
 .menu-dropdown {
-  min-width: 100%;
+  
   padding: 15px 0;
   position: absolute;
   background: #ebebeb;
