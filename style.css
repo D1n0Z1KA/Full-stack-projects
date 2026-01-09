@@ -168,6 +168,15 @@ $menu_WIDTH: 150px;
   z-index: 99;
 }
 
+
+@media only screen and (max-width: 768px) {
+.hList {
+
+      display: none;
+      
+}}
+
+
 .hList {
   //overflow: hidden;
       display: inline-flex;
@@ -181,3 +190,4 @@ $menu_WIDTH: 150px;
 .hList > * + * {
   margin-left: 0;
 }
+
