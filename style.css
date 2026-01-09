@@ -17,9 +17,11 @@ $menu_WIDTH: 150px;
   display: block;
   position: relative;
   cursor: pointer;
+  box-shadow: 10px 5px 5px red;
 }
 
 .menu-title {
+  box-shadow: 10px 5px 5px red;
   display: block;
   width: $menu_WIDTH;
   height: 40px;
