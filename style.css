@@ -189,7 +189,7 @@ $menu_WIDTH: 150px;
 @media only screen and (max-width: 768px) {
 .hList {
 
-      display: none;
+      display: none!important;
       
 }}
 
