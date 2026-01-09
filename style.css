@@ -168,6 +168,7 @@ $menu_WIDTH: 150px;
 
 .hList {
   //overflow: hidden;
+      display: inline-flex;
 }
 
 .hList > * {
